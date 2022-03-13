@@ -1,0 +1,8 @@
+/target
+/.vscode
+
+*.lock
+*.txt
+*.pcm
+*.wav
+*.exe
