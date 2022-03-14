@@ -3,5 +3,5 @@
 
 members = [
     "logic_analyzer_data_converter",
-    "kingstvis_data_converter",
+    "kingst_data_converter",
 ]
