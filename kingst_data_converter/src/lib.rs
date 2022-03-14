@@ -64,6 +64,10 @@ pub fn generate_pcm_file(in_file: &str, out_file: &[&str]) {
     }
 }
 
+pub fn get_library_version() -> &'static str {
+    env!("CARGO_PKG_VERSION")
+}
+
 // The output is wrapped in a Result to allow matching on errors
 // Returns an Iterator to the Reader of the lines of the file.
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
